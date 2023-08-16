@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head> 
+    <meta charset="UFT-8">
+    <link rel="stylesheet" type="text/css" href="estilo .css">
+    <title> DESCARTE DE APARELHOS ELETRÔNICOS</title>
+    <style>
+        table, th, td {border:1px solid black; }
+
+        table {
+            whidth:100%;
+        }
+    </style>
+
+</head>
+
+<body>
+ 
+    Em um trabalho de equipe foi realizada uma pesquisa sobre o uso e descarte de alguns aparelhos eletrônicos <br>
+     mais usados num período de 8 anos. <br>
+     <!-- lista não ordenada-->
+
+<ul> 
+        <li>CELULAR</li>
+        <li>PILHAS</li>
+        <li>BATERIAS</li>
+        <li>CARREGADORES</li>
+        <li>FONE DE OUVIDO</li>
+</ul> 
+<!--lista ordenada-->
+<br> 
+
+    Em seguida quais mais descartados pela equipe: 
+    <!--tabelas-->
+
+<ol>
+    <li>PILHAS</li>
+    <li>BATERIAS</li>
+    <li>FONES DE OUVIDO</li>
+    <LI>CARREGADORES</LI>
+    <LI>CELULAR</LI>
+
+</ol>
+ <br>
+
+    Após esse levantantamento foi então elaborado uma tabela sobre o período de uso de cada um dos 3 mais descartados:<BR>
+    <table>
+        <tr>
+            <th>APARELHO</th>
+            <th>TEMPO DE USO</th>
+        </tr>
+        <tr>
+        <td>PILHAS</td>
+        <td> 6 MESES </td>
+            </tr>
+
+        <tr>
+        <TD>BATERIAS</TD>
+        <TD>8 MESES</TD>
+        </tr>
+
+        <tr>
+            <td>FONES DE OUVIDO</td>
+            <TD>1 ANO</TD>
+        </tr>
+ </table><BR>
+
+    Então foram levantados os descarte utilizadas por membros da equipe:<br>
+
+    <table>
+        <tr>
+            <th>NOME</th>
+            <th colspan="2">FORMAS DE DESCARTE</th>
+        </tr>
+        <TR>
+            <TD>MARIANA</TD>
+            <TD>LIXO COMUM</TD>
+            <TD> RECICLAGEM</TD>
+        </TR>
+        <tr> <TD>LEANDRO</TD>
+            <TD>LIXO COMUM</TD>
+            <TD>GUARDADOS</TD>
+</table><BR>
+ 
+    E se tratando de aparelho celular a tabela foi a seguinte: <BR>
+
+    <table>
+        <tr>
+       <th> DESCARTE</th>
+       <TH> NOME </TH>
+        </tr>
+        <TR>
+            <TH rowspan="2">VENDEU</TH>
+            <TD>LEANDRO</TD>
+        </TR>
+        <TR>
+            <TD>MARIANA</TD>
+        </TR>
+        <TR>
+        <TH rowspan="2">DOOU</TH>
+        <TD>EDUARDA</TD></TR><br>
+        <form action="enviar.py"></form>
+
+         
+        <tr>
+            <td>LORENA</td>
+        </tr>
+
+    </table><br>
+
+
+   E para conclusões finais, utilizaram formulários para uma pequena pesquisa:<br>
+
+      <!--form-->
+
+    <form action="enviar.py">
+        <fieldset>
+            <legend>PESQUISA: </legend>><br>
+
+    APARELHO<BR>
+        <input type="text"  name="APARELHO"><BR>
+
+     TEMPO DE USO<BR>
+        <INPUT type="text" name=" TEMPO DE USO"> <br><br>
+        <INPUT type="submit" value="ENVIAR"> </fieldset>
+   </form><BR>
+
+    O que fez com esses aparelhos? <br>
+
+
+    <FORM>
+        <input type="radio"  name="formas de descarte"  value="LIXO COMUM" checked> LIXO COMUM<BR>
+        <input type="radio"  name="formas de descarte"  value="RECICLADO"> RECICLADO<BR>
+        <input type="radio"  name="formas de descarte"  value="VENDEU"> VENDEU<BR>
+    </FORM><br>
+  
+       <form action="enviar.py"|>
+           Quais defeitos eles apresentaram?<br>
+
+           <input type="checkbox" name="defeito" value="TELA">TELA<BR>
+           <input type="checkbox" name="defeito" value="BATERIA">BATERIA<BR>
+          <input type="checkbox"  name="defeito"  value="SOM">SOM<BR>
+</form><BR>
+
+
+    Quais as suas justificativas para a destinçaõ escolhidas?<br>
+
+    <!--textarea-->
+
+    <form action="enviar.py">
+        <textarea name="sugestão" rows="10" cols="30"></textarea><br>
+        <input type="submit" value="ENVIAR"> 
+    </form><br>
+
+
+    Qual marca de celular voçê mais utilizou? : <br>
+    <form action="enviar.py">
+<select name="celular">
+    <option value="SAMSUNG">SAMSUNG</option>
+    <option value="IPHONE">IPHONE</option>
+    <option value="MOTOROLA">MOTOROLA</option>
+</select>
+ </form><br>
+
+  Preencha seus dados abaixo,  obrigado pela sua participação. 
+  <form action="enviar.py"><br>
+      <fieldset>
+          <legend>DADOS PESSOAIS</legend><BR>
+      NOME:<BR>
+    <input type="text" name="nome"><br>
+    <legend>EMAIL:</legend><BR>
+    <input type="email" id="email" name="email"><br>
+    <input type="datetime-local"><br>
+    <input type="submit" value="ENVIAR"><BR>
+    <input type="reset"  value="LIMPAR"><BR></fieldset>
+  </form>
+
+
+   
+
+
+
+ 
+</body>
+</html>
+  
